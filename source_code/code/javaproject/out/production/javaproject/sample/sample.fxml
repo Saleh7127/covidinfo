@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<TabPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" tabClosingPolicy="UNAVAILABLE" xmlns="http://javafx.com/javafx/10.0.2-internal" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+    <tabs>
+        <Tab text="Chart">
+            <content>
+                <BorderPane prefHeight="200.0" prefWidth="200.0">
+                    <center>
+                        <PieChart fx:id="chart" maxHeight="700.0" maxWidth="700.0" prefHeight="371.0" prefWidth="432.0" title="People Affected by Covit" BorderPane.alignment="CENTER" />
+                    </center>
+                    <left>
+                        <BorderPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+                            <center>
+                                <Label fx:id="rate" style="-fx-text-fill: red;" text="Date Rate :" BorderPane.alignment="CENTER">
+                                    <font>
+                                        <Font size="22.0" />
+                                    </font>
+                                </Label>
+                            </center>
+                        </BorderPane>
+                    </left>
+                </BorderPane>
+            </content></Tab>
+        <Tab text="About">
+            <content>
+                <AnchorPane id="about" />
+            </content>
+        </Tab>
+    </tabs>
+</TabPane>

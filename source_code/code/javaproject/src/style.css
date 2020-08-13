@@ -1,0 +1,9 @@
+#about{
+        -fx-background-image : url("/credit/about.png");
+        -fx-background-repeat : no-repeat;
+        -fx-background-position: center ;
+        -fx-background-size: cover, auto;
+}
+.default-color0.chart-pie { -fx-pie-color: orange; }
+.default-color1.chart-pie { -fx-pie-color: red; }
+.default-color2.chart-pie { -fx-pie-color: green; }
